@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Web Dicted Chrome Plugin",
+    "version": "1.0",
+    "description": "Web Dicted Chrome Plugin",
+    "author": "Gatomek",
+    "action":{
+        "default_popup": "page.html",
+        "default_title": "Web Dicted"
+    },
+    "permissions": [
+        "activeTab",
+        "scripting",
+        "tabs",
+        "notifications"
+    ],
+    "host_permissions": ["http://103-45-246-83.cloud-xip.com/*"]
+}
